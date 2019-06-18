@@ -1,7 +1,10 @@
 #include <ESP8266WiFi.h>
- 
+ /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~For Static IP ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 const char* ssid = "**your SSID **";
 const char* password = "**Your routr password**";
+IPAddress ip(192, 168, 1, 10); //set static ip
+IPAddress gateway(192, 168, 1, 1); //set getteway
+IPAddress subnet(255, 255, 255, 0);//set subnet
  
 int ledPin = D3;
 /*int ledPin2 = D2;

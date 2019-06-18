@@ -3,7 +3,7 @@
 const char* ssid = "**your SSID **";
 const char* password = "**Your routr password**";
  
-int ledPin[6] = {D1, D2, D3, D4, D5, D6};
+int ledPin = D3;
 /*int ledPin2 = D2;
 int ledPin3 = D3;
 int ledPin4 = D4;
